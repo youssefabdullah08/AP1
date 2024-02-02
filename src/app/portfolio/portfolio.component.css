@@ -1,0 +1,14 @@
+.layer{
+    background-color: rgba(31, 31, 101, 0.641);
+    position: absolute;
+    top: 0;
+    left: 0;
+   opacity: 0;
+    transition: all 1s;
+}
+.col-md-4 i{
+    font-size: 60px;
+}
+.col-md-4:hover .layer{
+    opacity: 1;
+}
